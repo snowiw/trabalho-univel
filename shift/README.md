@@ -1,16 +1,18 @@
-# REDLINE - Landing Page
+# SHIFT - Landing Page
 
-Trabalho prático de Landing Page para Eventos (disciplina de HTML/CSS - TADS, 2º semestre).
+Trabalho de Landing Page feito para a matéria de HTML e CSS do curso de TADS.
 
-Escolhi um evento fictício de cultura automotiva chamado **REDLINE**, um encontro de carros que acontece em Cascavel, no Paraná. A ideia foi fugir um pouco do tema "festa/festival" e criar algo com uma pegada mais urbana.
+O projeto é sobre um evento fictício de carros chamado **REDLINE**, que aconteceria em Cascavel - PR. A ideia foi fazer uma página para um encontro de carros, com diferentes categorias e informações sobre o evento.
 
 ## Como abrir
 
-É só baixar/clonar o repositório e abrir o arquivo `index.html` no navegador. Não precisa instalar nada, é só HTML e CSS puro (sem framework, sem JS).
+Para abrir o projeto, é só baixar os arquivos e abrir o `index.html` no navegador.
 
-## Estrutura de pastas
+Não precisa instalar nada, porque o projeto foi feito somente com HTML e CSS.
 
-```
+## Estrutura
+
+```text
 redline/
 ├── index.html
 ├── css/
@@ -19,7 +21,7 @@ redline/
 │   ├── favicon.svg
 │   ├── logo.svg
 │   ├── categoria-jdm.svg
-│   ├── categoria-muscle.svg
+│   ├── categoria-v8.svg
 │   ├── categoria-classicos.svg
 │   ├── categoria-offroad.svg
 │   ├── categoria-stance.svg
@@ -28,28 +30,29 @@ redline/
 └── README.md
 ```
 
-## O que usei
+## O que foi usado
 
-- Tags semânticas do HTML5 (`header`, `nav`, `main`, `section`, `article`, `footer`, `address`, `details/summary`, `form`)
-- Flexbox pra organizar o header, os botões, o formulário e o rodapé
-- CSS Grid pras seções de categorias, programação, ingressos, local e formulário
-- Variáveis CSS (`:root`) só pra cores, pra não ficar repetindo hexadecimal em tudo quanto é lugar
-- Fonte "Oswald" do Google Fonts pros títulos, e fonte padrão do sistema (Arial) pro resto do texto
-- Media query em 768px e 1024px pra ficar responsivo (mobile primeiro, depois vai abrindo os grids)
+* HTML5
+* CSS3
+* Flexbox
+* CSS Grid
+* Variáveis CSS para as cores
+* Google Fonts
+* Media queries para deixar a página responsiva
 
 ## Seções da página
 
-1. Cabeçalho com menu
-2. Banner principal (nome do evento, data e local)
-3. Sobre o evento + números
-4. Categorias que participam do julgamento
-5. Programação do dia (manhã, tarde, noite)
-6. Ingressos (visitante, expositor, pista/paddock)
-7. Como chegar
+1. Menu
+2. Banner principal
+3. Sobre o evento
+4. Categorias de carros
+5. Programação
+6. Ingressos
+7. Local do evento
 8. Perguntas frequentes
 9. Formulário de inscrição
 10. Rodapé
 
 ## Observação
 
-O formulário não manda pra lugar nenhum de verdade (não tem back-end), é só a parte visual mesmo, já que o foco do trabalho é HTML e CSS.
+O formulário é apenas visual e não envia os dados para nenhum lugar, pois o trabalho foi feito somente com HTML e CSS.

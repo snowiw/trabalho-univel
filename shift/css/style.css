@@ -64,9 +64,6 @@ section {
   padding: 70px 0;
 }
 
-
-/* botões */
-
 .btn {
   display: inline-block;
   padding: 11px 22px;
@@ -105,9 +102,6 @@ section {
   color: var(--azul);
 }
 
-
-/* cabeçalho */
-
 header {
   background-color: var(--preto);
   color: var(--branco);
@@ -129,7 +123,6 @@ header {
   display: flex;
   align-items: center;
   gap: 9px;
-
   font-family: "Oswald", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
@@ -154,19 +147,13 @@ nav a:hover {
   color: var(--branco);
 }
 
-
-/* hero */
-
 .hero {
   min-height: 600px;
   position: relative;
-
   display: flex;
   align-items: center;
-
   background-color: var(--preto);
   color: var(--branco);
-
   overflow: hidden;
 }
 
@@ -179,7 +166,6 @@ nav a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-
   opacity: 0.42;
 }
 
@@ -220,9 +206,6 @@ nav a:hover {
   gap: 12px;
 }
 
-
-/* textos pequenos */
-
 .titulo-pequeno {
   color: var(--azul);
   font-size: 0.75rem;
@@ -230,9 +213,6 @@ nav a:hover {
   letter-spacing: 2px;
   margin-bottom: 8px;
 }
-
-
-/* sobre */
 
 .sobre {
   background-color: var(--branco);
@@ -254,7 +234,6 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1px;
-
   background-color: #dddddd;
   border: 1px solid #dddddd;
 }
@@ -274,9 +253,6 @@ nav a:hover {
   color: #777777;
   font-size: 0.9rem;
 }
-
-
-/* carros */
 
 .carros {
   background-color: var(--cinza-claro);
@@ -308,7 +284,7 @@ nav a:hover {
 
 .carro-card img {
   width: 100%;
-  height: 210px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -341,9 +317,6 @@ nav a:hover {
   font-size: 0.9rem;
 }
 
-
-/* programação */
-
 .programacao {
   background-color: var(--preto);
   color: var(--branco);
@@ -361,7 +334,6 @@ nav a:hover {
   display: grid;
   grid-template-columns: 100px 1fr;
   gap: 20px;
-
   padding: 22px 0;
   border-bottom: 1px solid #333333;
 }
@@ -380,9 +352,6 @@ nav a:hover {
   color: #aaaaaa;
 }
 
-
-/* ingressos */
-
 .ingressos {
   background-color: var(--branco);
 }
@@ -400,7 +369,6 @@ nav a:hover {
 .ingresso-card {
   border: 1px solid #dddddd;
   padding: 28px;
-
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -440,9 +408,6 @@ nav a:hover {
   text-align: center;
 }
 
-
-/* local */
-
 .local {
   background-color: var(--cinza);
   color: var(--branco);
@@ -479,8 +444,12 @@ nav a:hover {
   width: 100%;
 }
 
-
-/* FAQ */
+.local-mapa iframe {
+  width: 100%;
+  height: 340px;
+  border: 0;
+  display: block;
+}
 
 .faq {
   background-color: var(--branco);
@@ -514,9 +483,6 @@ nav a:hover {
   max-width: 700px;
 }
 
-
-/* inscrição */
-
 .inscricao {
   background-color: var(--cinza-claro);
 }
@@ -537,11 +503,9 @@ nav a:hover {
 .formulario {
   background-color: var(--branco);
   padding: 28px;
-
   display: flex;
   flex-direction: column;
   gap: 15px;
-
   border-top: 4px solid var(--azul);
 }
 
@@ -559,10 +523,8 @@ nav a:hover {
 .campo input,
 .campo select {
   padding: 11px;
-
   border: 1px solid #cccccc;
   border-radius: 2px;
-
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -571,9 +533,6 @@ nav a:hover {
   border: none;
   font-size: 1rem;
 }
-
-
-/* rodapé */
 
 footer {
   background-color: var(--preto);
@@ -615,9 +574,6 @@ footer a:hover {
   padding: 20px;
   font-size: 0.8rem;
 }
-
-
-/* celular */
 
 @media (max-width: 767px) {
 
