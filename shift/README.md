@@ -13,7 +13,7 @@ Não precisa instalar nada, porque o projeto foi feito somente com HTML e CSS.
 ## Estrutura
 
 ```text
-redline/
+shift/
 ├── index.html
 ├── css/
 │   └── style.css
